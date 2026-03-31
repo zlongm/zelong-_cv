@@ -1,0 +1,53 @@
+{
+  "projectName": "Zelong个人简历",
+  "version": "1.0.0",
+  "description": "现代科技感的个人简历网站",
+  "author": "Zelong",
+  
+  "displaySettings": {
+    "theme": "dark",
+    "primaryColor": "#00d4ff",
+    "secondaryColor": "#ff006e",
+    "accentColor": "#a200f5",
+    "language": "zh"
+  },
+  
+  "features": {
+    "multiLanguage": true,
+    "supportedLanguages": ["zh", "en", "pt"],
+    "pdfDownload": true,
+    "themeToggle": true,
+    "lightMode": true,
+    "responsiveDesign": true
+  },
+  
+  "sections": {
+    "sidebar": {
+      "photo": true,
+      "basicInfo": true,
+      "languages": true,
+      "learningMethods": true,
+      "updateTime": true
+    },
+    "main": {
+      "about": true,
+      "education": true,
+      "experience": true,
+      "projects": true,
+      "courses": true
+    }
+  },
+  
+  "dependencies": {
+    "html2pdf": "0.10.1"
+  },
+  
+  "files": {
+    "index": "index.html",
+    "styles": "styles.css",
+    "script": "script.js",
+    "utils": "utils.js",
+    "data": "data.js",
+    "documentation": "README.md"
+  }
+}

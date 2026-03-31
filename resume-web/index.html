@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zelong - 个人简历</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <!-- 语言切换和PDF下载控制栏 -->
+    <header class="top-bar">
+        <div class="container header-content">
+            <div class="logo">
+                <span class="logo-dot"></span>
+                <span class="logo-text">ZELONG</span>
+            </div>
+            <div class="controls">
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="zh" title="中文">中文</button>
+                    <button class="lang-btn" data-lang="en" title="English">English</button>
+                    <button class="lang-btn" data-lang="pt" title="Português">Português</button>
+                </div>
+                <button class="download-btn" id="downloadPdf">
+                    <span class="download-icon">⬇</span>
+                    <span class="download-text" data-i18n="download_pdf">下载PDF</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主容器 -->
+    <main class="container main-content">
+        <!-- 左侧边栏 - 照片和基本信息 -->
+        <aside class="sidebar">
+            <div class="photo-container">
+                <img src="images/image.jpg" alt="Profile Photo" class="profile-photo" id="profilePhoto">
+                <div class="photo-overlay"></div>
+            </div>
+            
+            <div class="sidebar-section">
+                <h3 class="sidebar-title" data-i18n="basic_info">基本信息</h3>
+                <div class="info-item">
+                    <span class="info-label" data-i18n="name">姓名:</span>
+                    <span class="info-value" id="nameDisplay">Zelong</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label" data-i18n="email">邮箱:</span>
+                    <span class="info-value" id="emailDisplay">zelong@example.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label" data-i18n="phone">电话:</span>
+                    <span class="info-value" id="phoneDisplay">+86 100 0000 0000</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label" data-i18n="location">位置:</span>
+                    <span class="info-value" id="locationDisplay">中国</span>
+                </div>
+            </div>
+
+            <!-- 语言技能 -->
+            <div class="sidebar-section">
+                <h3 class="sidebar-title" data-i18n="languages">语言技能</h3>
+                <div class="skills-list" id="languagesContainer">
+                    <!-- 动态填充 -->
+                </div>
+            </div>
+
+            <!-- 练习方式 -->
+            <div class="sidebar-section">
+                <h3 class="sidebar-title" data-i18n="learning_methods">练习方式</h3>
+                <ul class="methods-list" id="methodsContainer">
+                    <!-- 动态填充 -->
+                </ul>
+            </div>
+
+            <!-- 更新时间 (仅网页显示) -->
+            <div class="sidebar-section hide-in-pdf">
+                <div class="update-time" id="updateTime">
+                    <small data-i18n="last_updated">最后更新:</small>
+                    <small id="updateTimeValue">2026-3-30</small>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 右侧内容区 -->
+        <section class="main-section">
+            <!-- 个人简介 -->
+            <section class="content-section">
+                <h2 class="section-title">
+                    <span data-i18n="about_me">关于我</span>
+                </h2>
+                <p class="about-text" id="aboutContent">欢迎来到我的个人简历页面。这是一份展示我职业技能、教育经历和项目成果的综合简历。</p>
+            </section>
+
+            <!-- 教育背景 -->
+            <section class="content-section">
+                <h2 class="section-title">
+                    <span data-i18n="education">教育背景</span>
+                </h2>
+                <div class="education-item" id="educationContainer">
+                    <!-- 动态填充 -->
+                </div>
+            </section>
+
+            <!-- 工作经验 -->
+            <section class="content-section">
+                <h2 class="section-title">
+                    <span data-i18n="experience">工作经验</span>
+                </h2>
+                <div class="experience-item" id="experienceContainer">
+                    <!-- 动态填充 -->
+                </div>
+            </section>
+
+            <!-- 实战项目 -->
+            <section class="content-section">
+                <h2 class="section-title">
+                    <span data-i18n="projects">实战项目</span>
+                </h2>
+                <div class="projects-grid" id="projectsContainer">
+                    <!-- 动态填充 -->
+                </div>
+            </section>
+
+            <!-- 课程学习 -->
+            <section class="content-section">
+                <h2 class="section-title">
+                    <span data-i18n="courses">课程学习</span>
+                </h2>
+                <div class="courses-grid" id="coursesContainer">
+                    <!-- 动态填充 -->
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- 脚部 -->
+    <footer class="footer">
+        <p data-i18n="footer_text">© 2026 Zelong. All rights reserved. | 
+            <a href="#" id="themeToggle" data-i18n="toggle_theme">切换主题</a>
+        </p>
+    </footer>
+
+    <!-- 脚本 -->
+    <script src="data.js"></script>
+    <script src="utils.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

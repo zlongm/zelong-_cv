@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+npm-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+
+# Compiled CSS/JS
+*.min.css
+*.min.js
+
+# Temporary files
+tmp/
+temp/
+*.tmp
