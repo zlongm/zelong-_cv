@@ -114,22 +114,22 @@ const contentData = {
             {
                 title: 'SAP 4/HANA 基础部署',
                 description: '学校组织的企业资源规划系统基础部署项目，深入学习SAP系统架构、数据库管理和企业流程整合。',
-                tags: ['SAP/HANA', 'ERP', '数据库']
+                tags: ['SAP/HANA', 'ERP']
             },
             {
                 title: '交通实时模拟系统',
                 description: '开发交通流量实时监测和模拟系统，支持动态数据处理和可视化展示，用于城市交通规划分析。',
-                tags: ['Python', '数据处理', '实时系统', '可视化']
+                tags: [ '数据处理', '实时系统', '可视化']
             },
             {
                 title: '外卖平台软件',
                 description: '完整的外卖平台应用，包括商家端、客户端和后台管理系统，支持订单管理、支付集成和配送追踪。',
-                tags: ['Web应用', '支付集成', '后端管理', '移动适配']
+                tags: ['Web应用', '前端设计', '移动适配']
             },
             {
                 title: '软件部署计划书',
                 description: '学校组织的软件部署项目文档编制，包括系统架构规划、部署策略制定、风险评估和实施方案设计。',
-                tags: ['部署计划', '系统架构', '项目管理', '文档']
+                tags: ['部署计划', '系统架构', '文档']
             }
         ],
         
@@ -151,7 +151,7 @@ const contentData = {
             { name: '物流与生产组织', info: '生产管理' },
             { name: '信息技术与组织发展', info: '组织与IT' },
             { name: '财务管理', info: '财务与成本' },
-            { name: '选修课程（UMinho）', info: '选修课程' },
+            { name: 'Curso de Espanhol', info: '西班牙语选修课' },
             { name: 'Web编程', info: 'Web开发' },
             { name: '人工智能技术', info: 'AI与机器学习' }
         ]
@@ -243,7 +243,7 @@ const contentData = {
             { name: 'Logistics and Production Organization', info: 'Production Management' },
             { name: 'Organizational Development with Information Technologies', info: 'Organization & IT' },
             { name: 'Financial Management', info: 'Finance & Costing' },
-            { name: 'Elective Course (UMinho)', info: 'Elective Course' },
+            { name: 'Curso de Espanhol', info: 'Spanish Elective Course' },
             { name: 'Web Programming', info: 'Web Development' },
             { name: 'Artificial Intelligence Techniques', info: 'AI & Machine Learning' }
         ]
@@ -329,7 +329,7 @@ const contentData = {
             { name: 'Logística e Organização da Produção', info: 'Gestão da Produção' },
             { name: 'Desenvolvimento Organizacional com Tecnologias da Informação', info: 'Organização e TI' },
             { name: 'Gestão Financeira', info: 'Finanças e Custos' },
-            { name: 'Opção UMinho', info: 'Disciplina Opcional' },
+            { name: 'Curso de Espanhol', info: 'Disciplina Opcional de Espanhol' },
             { name: 'Programação para a Web', info: 'Desenvolvimento Web' },
             { name: 'Técnicas de Inteligência Artificial', info: 'IA e Aprendizagem Automática' }
         ]
@@ -497,12 +497,16 @@ function updateContent(lang) {
     
     // 课程
     const coursesContainer = document.getElementById('coursesContainer');
-    coursesContainer.innerHTML = data.courses.map(course => `
-        <div class="course-item">
-            <div class="course-name">${course.name}</div>
-            <div class="course-info">${course.info}</div>
-        </div>
-    `).join('');
+    coursesContainer.innerHTML = data.courses.map(course => {
+        // 所有课程都可点击跳转到指定链接
+        const courseHtml = `
+            <div class="course-item" style="cursor:pointer;" onclick="window.open('https://www.dsi.uminho.pt/curso/legsi')">
+                <div class="course-name">${course.name}</div>
+                <div class="course-info">${course.info}</div>
+            </div>
+        `;
+        return courseHtml;
+    }).join('');
 }
 
 // ============================================
