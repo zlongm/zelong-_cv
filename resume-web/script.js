@@ -90,17 +90,17 @@ const contentData = {
             {
                 school: '米尼奥大学',
                 major: '信息系统工程与管理',
-                year: '2023 - 2026',
-                description: '攻读本科学位，系统学习信息系统管理、工程实践和企业应用。预计2026年毕业。'
+                    year: '2023 - 2026',
+                    description: '攻读本科学位，系统学习信息系统管理、工程实践和企业应用。'
             }
         ],
         
         experience: [
             {
                 company: '自由职业',
-                position: '自由翻译员',
-                year: '2026 - 至今',
-                description: '专业翻译服务，丰富的跨领域翻译经验。涉及木材、钢铁、科技、出口肉类等行业，精通葡萄牙语和中文，保证翻译质量和文化准确性。'
+                    position: '自由翻译员',
+                    year: '2022 - 至今',
+                    description: '专业翻译服务，丰富的跨领域翻译经验。涉及木材、钢铁、科技、出口肉类等行业，精通葡萄牙语和中文，保证翻译质量和文化准确性。'
             },
             {
                 company: 'IT工作经验',
@@ -183,7 +183,7 @@ const contentData = {
                 school: 'Universidade do Minho',
                 major: 'Information Systems Engineering and Management',
                 year: '2023 - 2026',
-                description: 'Pursuing bachelor degree with systematic study of information systems management, engineering practice and enterprise applications. Expected graduation in 2026.'
+                description: 'Pursuing bachelor degree with systematic study of information systems management, engineering practice and enterprise applications.'
             }
         ],
         
@@ -191,7 +191,7 @@ const contentData = {
             {
                 company: 'Freelance',
                 position: 'Freelance Translator',
-                year: '2026 - Present',
+                year: '2022 - Present',
                 description: 'Professional translation services with extensive cross-domain experience. Specializing in timber, steel, technology, and export meat industries. Fluent in Portuguese and Chinese with expertise in ensuring translation quality and cultural accuracy.'
             },
             {
@@ -275,7 +275,7 @@ const contentData = {
                 school: 'Universidade do Minho',
                 major: 'Engenharia e Gestão de Sistemas de Informação',
                 year: '2023 - 2026',
-                description: 'Cursando licenciatura com estudo sistemático de gestão de sistemas de informação, prática de engenharia e aplicações empresariais. Conclusão prevista para 2026.'
+                description: 'Cursando licenciatura com estudo sistemático de gestão de sistemas de informação, prática de engenharia e aplicações empresariais.'
             }
         ],
         
@@ -283,7 +283,7 @@ const contentData = {
             {
                 company: 'Trabalho Freelancer',
                 position: 'Tradutor Freelancer',
-                year: '2026 - Presente',
+                year: '2022 - Presente',
                 description: 'Serviços profissionais de tradução com vasta experiência em múltiplos domínios. Especialização em indústrias de madeira, aço, tecnologia e carnes de exportação. Fluente em português e chinês com expertise em garantir qualidade de tradução e precisão cultural.'
             }
         ],
