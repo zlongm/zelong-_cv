@@ -261,13 +261,19 @@ const contentData = {
         education: [
             {
                 school: 'Universidade do Minho',
-                major: 'Engenharia e Gestão de Sistemas de Informação',
+                major: 'Licenciatura em Engenharia e Gestão de Sistemas de Informação',
                 year: '2023 - 2026',
                 description: 'Cursando licenciatura com estudo sistemático de gestão de sistemas de informação, prática de engenharia e aplicações empresariais.'
             }
         ],
         
         experience: [
+            {
+                company: 'Experiência IT',
+                position: 'Nota',
+                year: '-',
+                description: 'Atualmente sem experiência em empresas IT, mas possuo forte background técnico e capacidade de aprendizagem, ansioso para desenvolver carreira na área de IT.'
+            }
         ],
         
         projects: [
