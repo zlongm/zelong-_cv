@@ -97,12 +97,6 @@ const contentData = {
         
         experience: [
             {
-                company: '自由职业',
-                    position: '自由翻译员',
-                    year: '2022 - 至今',
-                    description: '专业翻译服务，丰富的跨领域翻译经验。涉及木材、钢铁、科技、出口肉类等行业，精通葡萄牙语和中文，保证翻译质量和文化准确性。'
-            },
-            {
                 company: 'IT工作经验',
                 position: '说明',
                 year: '-',
@@ -188,7 +182,6 @@ const contentData = {
         ],
         
         experience: [
-            
             {
                 company: 'IT Work Experience',
                 position: 'Note',
@@ -275,12 +268,6 @@ const contentData = {
         ],
         
         experience: [
-            {
-                company: 'Trabalho Freelancer',
-                position: 'Tradutor Freelancer',
-                year: '2022 - Presente',
-                description: 'Serviços profissionais de tradução com vasta experiência em múltiplos domínios. Especialização em indústrias de madeira, aço, tecnologia e carnes de exportação. Fluente em português e chinês com expertise em garantir qualidade de tradução e precisão cultural.'
-            }
         ],
         
         projects: [
