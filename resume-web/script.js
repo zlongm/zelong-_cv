@@ -188,12 +188,7 @@ const contentData = {
         ],
         
         experience: [
-            {
-                company: 'Freelance',
-                position: 'Freelance Translator',
-                year: '2022 - Present',
-                description: 'Professional translation services with extensive cross-domain experience. Specializing in timber, steel, technology, and export meat industries. Fluent in Portuguese and Chinese with expertise in ensuring translation quality and cultural accuracy.'
-            },
+            
             {
                 company: 'IT Work Experience',
                 position: 'Note',
