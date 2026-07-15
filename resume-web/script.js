@@ -69,7 +69,7 @@ const contentData = {
         email: 'mazelong2002@gmail.com',
         phone: '+351 927 259 962',
         location: 'Braga, Portugal',
-        about: '我来自中国，在葡萄牙长期居住已超过14年，这让我具备良好的跨文化适应能力，能够在多元环境中灵活应对和发展。我毕业于信息系统管理与工程专业，将对科技的兴趣与系统思维及商业理解相结合。我对科技发展保持持续关注，并乐于探索新技术和行业趋势。我性格开放，喜欢与不同背景的人沟通交流，具备良好的团队合作精神和责任感。在面对新环境或新挑战时，我拥有较强的学习能力，能够快速适应并持续提升自己。目759，我正在寻找能够发挥自身技术背景、持续成长并在多元文化环境中创造价值的职业机会。',
+        about: '我来自中国，自2010年起在葡萄牙长期居住，这让我具备良好的跨文化适应能力，能够在多元环境中灵活应对和发展。我毕业于信息系统管理与工程专业，将对科技的兴趣与系统思维及商业理解相结合。我对科技发展保持持续关注，并乐于探索新技术和行业趋势。我性格开放，喜欢与不同背景的人沟通交流，具备良好的团队合作精神和责任感。在面对新环境或新挑战时，我拥有较强的学习能力，能够快速适应并持续提升自己。我正在寻找能够发挥自身技术背景、持续成长并在多元文化环境中创造价值的职业机会。',
         
         languages: [
             { name: '中文', level: '母语', percentage: 100 },
@@ -156,7 +156,7 @@ const contentData = {
         email: 'mazelong2002@gmail.com',
         phone: '+351 927259962',
         location: 'Braga, Portugal',
-        about: 'I am originally from China and have been living in Portugal for over 14 years, which has enabled me to develop strong cross-cultural adaptability and thrive in diverse environments. I hold a degree in Information Systems Management and Engineering, combining my interest in technology with a solid foundation in systems thinking and business understanding. I actively follow technological developments and enjoy exploring new trends in the industry. I am an open-minded and people-oriented individual who enjoys interacting with individuals from different backgrounds. I bring strong teamwork skills, a sense of responsibility, and the ability to learn quickly and adapt to new challenges. I am currently seeking opportunities where I can apply my technical background, continue to grow, and contribute within a dynamic and multicultural environment.',
+        about: 'I am originally from China and have been living in Portugal since 2010, which has enabled me to develop strong cross-cultural adaptability and thrive in diverse environments. I hold a degree in Information Systems Management and Engineering, combining my interest in technology with a solid foundation in systems thinking and business understanding. I actively follow technological developments and enjoy exploring new trends in the industry. I am an open-minded and people-oriented individual who enjoys interacting with individuals from different backgrounds. I bring strong teamwork skills, a sense of responsibility, and the ability to learn quickly and adapt to new challenges. I am currently seeking opportunities where I can apply my technical background, continue to grow, and contribute within a dynamic and multicultural environment.',
         
         languages: [
             { name: 'Chinese', level: 'Native', percentage: 100 },
@@ -242,7 +242,7 @@ const contentData = {
         email: 'mazelong2002@gmail.com',
         phone: '+351 927259962',
         location: 'Braga, Portugal',
-        about: 'Sou natural da China e vivo em Portugal há mais de 14 anos, o que me permitiu desenvolver uma forte capacidade de adaptação a diferentes contextos culturais e trabalhar eficazmente em ambientes diversos. Sou licenciado em Gestão e Engenharia de Sistemas de Informação, área onde consigo conciliar o meu interesse pela tecnologia com uma base sólida de pensamento sistémico e compreensão do negócio. Tenho interesse contínuo pela evolução tecnológica e gosto de acompanhar novas tendências. Sou uma pessoa aberta e gosto de comunicar com pessoas de diferentes origens, valorizando o trabalho em equipa e o sentido de responsabilidade. Tenho facilidade de aprendizagem e adapto-me rapidamente a novos desafios. Atualmente, procuro oportunidades onde possa aplicar os meus conhecimentos, continuar a evoluir e contribuir num ambiente dinâmico e multicultural.',
+        about: 'Sou natural da China e vivo em Portugal desde 2010, o que me permitiu desenvolver uma forte capacidade de adaptação a diferentes contextos culturais e trabalhar eficazmente em ambientes diversos. Sou licenciado em Gestão e Engenharia de Sistemas de Informação, área onde consigo conciliar o meu interesse pela tecnologia com uma base sólida de pensamento sistémico e compreensão do negócio. Tenho interesse contínuo pela evolução tecnológica e gosto de acompanhar novas tendências. Sou uma pessoa aberta e gosto de comunicar com pessoas de diferentes origens, valorizando o trabalho em equipa e o sentido de responsabilidade. Tenho facilidade de aprendizagem e adapto-me rapidamente a novos desafios. Atualmente, procuro oportunidades onde possa aplicar os meus conhecimentos, continuar a evoluir e contribuir num ambiente dinâmico e multicultural.',
         
         languages: [
             { name: 'Chinês', level: 'Nativo', percentage: 100 },
