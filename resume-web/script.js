@@ -258,8 +258,8 @@ const contentData = {
         
         languages: [
             { name: 'Chinês', level: 'Nativo', percentage: 100 },
-            { name: 'Inglês', level: 'Fluente', percentage: 90 },
-            { name: 'Português', level: 'Intermediário', percentage: 70 }
+            { name: 'Inglês', level: 'Intermediário', percentage: 90 },
+            { name: 'Português', level: 'Fluente', percentage: 70 }
         ],
         
         methods: [
@@ -302,12 +302,7 @@ const contentData = {
             {
                 title: 'Plataforma de Entrega de Alimentos',
                 description: 'Aplicativo completo de entrega de alimentos incluindo lado do comerciante, lado do cliente e sistema de gerenciamento de back-end com gerenciamento de pedidos, integração de pagamento e rastreamento de entrega.',
-                tags: ['Aplicação Web', 'Integração de Pagamento', 'Gerenciamento de Back-End', 'Responsivo Móvel']
-            },
-            {
-                title: 'Plano de Implantação de Software',
-                description: 'Documentação de projeto de implantação de software organizado pela escola, incluindo planejamento da arquitetura do sistema, formulação de estratégia de implantação, avaliação de risco e design da proposta de implementação.',
-                tags: ['Plano de Implantação', 'Arquitetura de Sistema', 'Gestão de Projeto', 'Documentação']
+                tags: ['Aplicação Web', 'Gerenciamento de Back-End', 'Responsivo Móvel']
             }
         ],
         
